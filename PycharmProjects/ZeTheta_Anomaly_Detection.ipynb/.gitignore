@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Data & Models (Simulate a fresh start for the reviewer)
+data/*.csv
+data/*.db
+# We usually DO commit the model for demos, but you can ignore it if you want fresh training
+# data/model.pkl
+
+# IDE settings
+.idea/
+.vscode/
